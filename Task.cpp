@@ -24,3 +24,15 @@ std::string Task::toString() const {
     return answ.str();
 }
 
+Task& Task::operator=(const Task &other) {
+    if (this == &other) {
+        return *this;
+    }
+
+    name_ = other.name_;
+    description_ = other.description_;
+    deadline_ = other.deadline_;
+    isDone_ = other.isDone_;
+    return *this;
+}
+

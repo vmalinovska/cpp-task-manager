@@ -70,6 +70,8 @@ public:
     bool operator==(const Task &other) const {
         return name_ == other.name_ && description_ == other.description_ && deadline_ == other.deadline_ && isDone_ == other.isDone_;
     }
+
+    Task& operator=(const Task &other);
 };
 
 #endif //TASK_H
