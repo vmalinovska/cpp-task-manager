@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpWindow</class>
+ <widget class="QDialog" name="HelpWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgba(255, 255, 255, 64);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="name">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Avenir</family>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">padding: 5px;</string>
+     </property>
+     <property name="text">
+      <string>How to use Task Manager</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="styleSheet">
+      <string notr="true">background: rgb(137, 111, 197);
+border-radius: 20px;</string>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollArea_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>360</width>
+        <height>483</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="description">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Avenir</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;• Click the &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;&amp;quot;+&amp;quot;&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt; button to &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;create&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt; a new task.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;• Enter a title for your task.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;• Add a description if needed (this step is completely optional).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;• Set a deadline for your task:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;- If the selected date is in the &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;future&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;, it will be displayed normally.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;- If the selected date is in the &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;past&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;, the deadline will automatically be set to &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;ASAP&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt; (As Soon As Possible).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;• Double-click the task title, description, or deadline to &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;edit&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt; it.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;• Mark a task as &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;completed&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt; by toggling the checkbox on the left side of the task widget.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;• &lt;/span&gt;&lt;span style=&quot; font-weight:700; color:#ffffff;&quot;&gt;Delete&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt; a task by clicking the trash bin icon in the top-right corner of the task widget.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-webkit-standard'; font-size:medium; color:#ffffff;&quot;&gt;• If you are unsure what a button or text element does, &lt;/span&gt;&lt;span style=&quot; font-family:'-webkit-standard'; font-size:medium; font-weight:700; color:#ffffff;&quot;&gt;hover&lt;/span&gt;&lt;span style=&quot; font-family:'-webkit-standard'; font-size:medium; color:#ffffff;&quot;&gt; your mouse over it to see a &lt;/span&gt;&lt;span style=&quot; font-family:'-webkit-standard'; font-size:medium; font-weight:700; color:#ffffff;&quot;&gt;helpful tooltip&lt;/span&gt;&lt;span style=&quot; font-family:'-webkit-standard'; font-size:medium; color:#ffffff;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>HelpWindow</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>HelpWindow</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

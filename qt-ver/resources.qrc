@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/trash.svg</file>
+        <file>icons/trash-red.svg</file>
+        <file>icons/checked.svg</file>
+    </qresource>
+</RCC>
