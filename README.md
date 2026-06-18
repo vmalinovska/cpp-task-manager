@@ -2,6 +2,12 @@
 
 A simple task manager application written in C++. The project allows users to create, edit, delete, and manage tasks in an easy and organised way.
 
+The project includes two versions:
+- **Qt GUI version** – a graphical desktop application with a user interface.
+- **Terminal version** – a command-line interface for task management.
+
+Tasks are stored in JSON format using the **nlohmann/json** library:
+https://github.com/nlohmann/json
 ---
 
 ## Screenshots
